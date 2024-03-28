@@ -1,5 +1,7 @@
 package com.ideal.idealmaker.gallery.data;
 
+import com.ideal.idealmaker.gallery.domain.Image;
+
 public class ImageDTO {
     private Long idealId;
     private String idealURL;
@@ -30,5 +32,5 @@ public class ImageDTO {
     public void setAnimalType(String animalType) {
         this.animalType = animalType;
     }
-}
 
+}
